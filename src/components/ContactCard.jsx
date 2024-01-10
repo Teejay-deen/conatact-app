@@ -1,13 +1,17 @@
 import React from "react";
 
-const ContactCard = (contact) => {
+const ContactCard = (props) => {
+  const { id, name, email } = props.contact;
   return (
     <div className="item">
       <div className="content">
-        <div className="header">{contact.name}</div>
-        <div className="header">{contact.email}</div>
+        <div className="header">{name}</div>
+        <div className="header">{email}</div>
       </div>
-      <i style={{color:"red"}} className="trash alternate outline icon "></i>
+      <i
+        style={{ color: "red", marginTop: "7px" }}
+        className="trash alternate outline icon "
+      ></i>
     </div>
   );
 };
