@@ -11,7 +11,7 @@ const ContactCard = (props) => {
         <div className="header">{email}</div>
       </div>
       <i
-        style={{ color: "red", marginTop: "px" }}
+        style={{ color: "red", marginTop: "7px" }}
         className="trash alternate outline icon "
       ></i>
     </div>
