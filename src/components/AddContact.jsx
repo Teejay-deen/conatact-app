@@ -3,11 +3,8 @@ import { useState } from "react";
 
 const AddContactList = () => {
   const [state, setState] = useState({});
-  
-  const _state = {
-    name: "",
-    email: "",
-  };
+
+  const _state = {};
 
   return (
     <div className="ui main">
